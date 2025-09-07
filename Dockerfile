@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --upgrade pip
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirments.txt
 
 # Expose port
 EXPOSE 8000
