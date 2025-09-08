@@ -4,7 +4,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 # Multilingual zero-shot classifier (XNLI backbone -> supports ~100 languages)
-# Note: first run will download model weights (~1.2GB). For hackathon, run locally or build Docker once.
+# Note: first run will download model weights (~1.2GB) 
 CLASSIFIER_MODEL_NAME = "joeddav/xlm-roberta-large-xnli"
 
 # initialize pipeline once (costly)
